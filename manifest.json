@@ -1,0 +1,59 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "name": "Tech for Good – Limoges 2026",
+  "short_name": "TFG Limoges",
+  "description": "Conférences, ateliers et actions concrètes pour un numérique responsable, inclusif et durable.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b0e1f",
+  "theme_color": "#1b2a84",
+  "categories": [
+    "events",
+    "education",
+    "technology",
+    "nonprofit"
+  ],
+  "icons": [
+    {
+      "src": "/icons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/favicon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Programme",
+      "short_name": "Programme",
+      "url": "/#programme"
+    },
+    {
+      "name": "Inscription",
+      "short_name": "Inscription",
+      "url": "/#inscription"
+    }
+  ],
+  "prefer_related_applications": false
+}
