@@ -186,6 +186,11 @@ header .muted {
     background: rgba(255, 255, 255, 0.15);
 }
 
+section[aria-labelledby="titre-inscription"] .btn-outline {
+    background-color: var(--text-light);
+    border-color: var(--text-light);
+}
+
 /* ==========================
    GRIDS
    ========================== */
