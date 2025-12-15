@@ -48,7 +48,7 @@
                 "@type": "Organization",
                 "name": "Tech for Good – Limoges",
                 "url": "https://nicolasvauche.github.io/exercice_landing_page/",
-                "logo": "https://nicolasvauche.github.io/exercice_landing_pageassets/img/logo-lg.jpg",
+                "logo": "https://nicolasvauche.github.io/exercice_landing_page/assets/img/logo-lg.jpg",
                 "sameAs": []
             }
         </script>
@@ -88,7 +88,7 @@
                     "url": "https://nicolasvauche.github.io/exercice_landing_page/#inscription"
                 },
                 "image": [
-                    "https://nicolasvauche.github.io/exercice_landing_pageassets/img/cover-lg.jpg"
+                    "https://nicolasvauche.github.io/exercice_landing_page/assets/img/cover-lg.jpg"
                 ]
             }
         </script>
@@ -173,7 +173,7 @@
                         <div class="card" role="listitem">
                             <figure>
                                 <img loading="lazy" decoding="async" width="640" height="900"
-                                     src="assets/img/img05.png" alt="Image exemple 1">
+                                     src="assets/img/img05.png" alt="Image exemple 2">
                             </figure>
                             <h3>Inclusion & accessibilité</h3>
                             <p class="muted">Biais algorithmiques, design éthique.</p>
@@ -181,7 +181,7 @@
                         <div class="card" role="listitem">
                             <figure>
                                 <img loading="lazy" decoding="async" width="640" height="900"
-                                     src="assets/img/img04.png" alt="Image exemple 1">
+                                     src="assets/img/img04.png" alt="Image exemple 3">
                             </figure>
                             <h3>Technologies durables</h3>
                             <p class="muted">Low-tech, réparation, frugalité.</p>
@@ -342,37 +342,15 @@
             <!-- Inscription -->
             <section id="inscription" class="section" aria-labelledby="titre-inscription">
                 <div class="container">
-                    <h2 id="titre-inscription">Inscription (gratuite, obligatoire)</h2>
-                    <form action="/inscription" method="post" novalidate aria-describedby="insc-help">
-                        <p id="insc-help" class="muted">Vos données sont utilisées uniquement pour la gestion de l’événement.</p>
-
-                        <div class="grid grid-2">
-                            <div>
-                                <label for="nom">Nom</label>
-                                <input id="nom" name="nom" type="text" autocomplete="family-name" required>
-                            </div>
-                            <div>
-                                <label for="prenom">Prénom</label>
-                                <input id="prenom" name="prenom" type="text" autocomplete="given-name" required>
-                            </div>
-                            <div>
-                                <label for="email">Email</label>
-                                <input id="email" name="email" type="email" autocomplete="email" required inputmode="email">
-                            </div>
-                            <div>
-                                <label for="organisation">Organisation (optionnel)</label>
-                                <input id="organisation" name="organisation" type="text" autocomplete="organization">
-                            </div>
-                        </div>
-
-                        <div>
-                            <input type="checkbox" id="rgpd" name="rgpd" required aria-describedby="rgpd-desc">
-                            <label for="rgpd">J’accepte que mes données soient utilisées pour l’organisation de l’événement.</label>
-                            <p id="rgpd-desc" class="visually-hidden">Consentement nécessaire pour enregistrer l’inscription.</p>
-                        </div>
-
-                        <button class="btn btn-primary" type="submit">Valider mon inscription</button>
-                    </form>
+                    <h2 id="titre-inscription">Inscription</h2>
+                    <p class="muted" id="insc-help">
+                        L’inscription se fait désormais via notre application dédiée.
+                        Vous serez redirigé·e vers une interface sécurisée pour finaliser votre participation.
+                    </p>
+                    <div class="cta" role="group" aria-label="Appel à l’action inscription">
+                        <a class="btn btn-primary" href="/inscription/">Ouvrir l’app d’inscription</a>
+                        <a class="btn btn-outline" href="#programme">Voir le programme</a>
+                    </div>
                 </div>
             </section>
 
